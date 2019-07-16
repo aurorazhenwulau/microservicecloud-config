@@ -40,7 +40,7 @@ info:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包,告诉Mybatis，这个包下面的统统都是实体类
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包,告诉Mybatis，这个包下面的统
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件 sql语句映射文件
 
@@ -70,7 +70,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: dept-8001.com   # 给入驻的Eureka instance 起别名，也就是我们自己的名字【身份证上的名字】,自定义Hystrix相关服务名称信息
+    instance-id: dept-8001.com   # 给入驻的Eureka instance 起别名，也就是我们自己的名字【身份证上的名字】,自定义
     prefer-ip-address: true # 访问路径可以显示ip地址
 
   # 添加对于我们微服务信息的描述
@@ -82,6 +82,6 @@ info:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包,告诉Mybatis，这个包下面的统统都是实体类
+  type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包,告诉Mybatis，这个包下面的统
   mapper-locations:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件 sql语句映射文件
